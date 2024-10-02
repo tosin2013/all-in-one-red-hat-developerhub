@@ -23,5 +23,5 @@ The following components will be provisioned by ArgoCD in your cluster:
 1. **Install the OpenShift GitOps Operator** on your OpenShift cluster - WIP
 2. To deploy the Developer Hub, you can use the following command:
    ```bash
-   oc apply -k components/argocd/apps/overlays/developerhub-4.16
+   oc apply -k  clusters/overlays/developerhub-4.16
    ```
