@@ -13,7 +13,7 @@ spec:
         install: false
       global:
         hosts:
-          domain: developerhub.sandbox2183.opentlc.com # update with the cluster domain here.
+          domain: apps.developerhub.sandbox2183.opentlc.com # update with the cluster domain here.
         ingress:
           annotations:
             route.openshift.io/termination: edge
