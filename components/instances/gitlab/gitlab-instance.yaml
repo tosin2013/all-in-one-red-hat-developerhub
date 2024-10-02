@@ -5,7 +5,7 @@ metadata:
   namespace: gitlab-system
 spec:
   chart:
-    version: 7.9.2
+    version: 8.4.1
     values:
       certmanager-issuer:
         email: rafaelcba@gmail.com
