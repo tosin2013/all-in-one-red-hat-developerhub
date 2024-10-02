@@ -1,0 +1,13 @@
+---
+apiVersion: operators.coreos.com/v1alpha1
+kind: Subscription
+metadata:
+  name: vault-config-operator 
+  namespace: vault-config-operator 
+spec:
+  channel: stable
+  installPlanApproval: Automatic
+  name: vault-secrets-operator
+  source: certified-operators
+  sourceNamespace: openshift-marketplace
+  startingCSV: vault-secrets-operator.v0.8.1

@@ -14,5 +14,10 @@
     - cluster: local
       url: https://kubernetes.default.svc
       values:
+        name: hashicorp-vault-operator
+        path: components/operators/hashicorp-vault
+    - cluster: local
+      url: https://kubernetes.default.svc
+      values:
         name: gitlab-instance
         path: components/instances/gitlab
