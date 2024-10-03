@@ -1,0 +1,11 @@
+ apiVersion: apps.gitlab.com/v1beta1                                                                                                             
+ kind: GitLab                                                                                                                                    
+ metadata:                                                                                                                                       
+   name: gitlab                                                                                                                                  
+   namespace: gitlab-system                                                                                                                      
+ spec:                                                                                                                                           
+   chart:                                                                                                                                        
+     values:                                                                                                                                     
+       global:                                                                                                                                   
+         hosts:                                                                                                                                  
+           domain: apps.developerhub.sandbox2183.opentlc.com   # Replace <new-domain> with your desired domain     

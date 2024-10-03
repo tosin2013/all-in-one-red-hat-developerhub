@@ -21,3 +21,8 @@
       values:
         name: gitlab-instance
         path: components/instances/gitlab
+    - cluster: local
+      url: https://kubernetes.default.svc
+      values:
+        name: vault-instance
+        path: components/instances/hashicorp-vault/overlays/vault
