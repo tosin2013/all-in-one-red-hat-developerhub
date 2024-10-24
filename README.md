@@ -30,7 +30,7 @@ The following components will be provisioned by ArgoCD in your cluster:
 ```
 oc apply -k https://github.com/tosin2013/all-in-one-red-hat-developerhub/components/operators/cert-manager
 oc apply -k https://github.com/tosin2013/all-in-one-red-hat-developerhub/components/operators/gitlab
-oc apply -k https://github.com/tosin2013/all-in-one-red-hat-developerhub/components/operators/gitlab | --dry-run=client -oyaml #CHANGE DOMAIN URL
+oc apply -k https://github.com/tosin2013/all-in-one-red-hat-developerhub/components/instances/gitlab | --dry-run=client -oyaml #CHANGE DOMAIN URL
 ```
 
 
