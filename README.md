@@ -25,3 +25,12 @@ The following components will be provisioned by ArgoCD in your cluster:
    ```bash
    oc apply -k  clusters/overlays/developerhub-4.16
    ```
+
+# Deploy Manually 
+```
+oc apply -k https://github.com/tosin2013/all-in-one-red-hat-developerhub/components/operators/cert-manager
+oc apply -k https://github.com/tosin2013/all-in-one-red-hat-developerhub/components/operators/gitlab
+oc apply -k https://github.com/tosin2013/all-in-one-red-hat-developerhub/components/operators/gitlab | --dry-run=client -oyaml #CHANGE DOMAIN URL
+```
+
+
