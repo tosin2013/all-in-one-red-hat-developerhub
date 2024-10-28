@@ -15,10 +15,6 @@ spec:
         hosts:
           domain: example.com # update with the cluster domain here.
         ingress:
-          annotations:
-            route.openshift.io/termination: edge
-            kubernetes.io/tls-acme: true
-          class: none
           configureCertmanager: true
       nginx-ingress:
         enabled: false
