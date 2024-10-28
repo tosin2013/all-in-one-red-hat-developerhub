@@ -10,7 +10,7 @@ spec:
       certmanager-issuer:
         email: admin@example.com
       configureCertmanager:
-        install: false
+        install: true
       global:
         hosts:
           domain: example.com # update with the cluster domain here.
